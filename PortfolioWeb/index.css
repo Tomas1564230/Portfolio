@@ -27,7 +27,7 @@ body {
 .gridHeaderTwo, .aboutOne{
     
     width: 50%;
-    background-image: url(/PortfolioWeb/Images/headerBackground.jpg);
+    background-image: url(/Images/headerBackground.jpg);
     background-size:cover;
     
 }
@@ -60,7 +60,7 @@ body {
     height: 20%;
 }
 .aboutOne{
-    background-image: url(/PortfolioWeb/Images/coding-924920_960_720.jpg);
+    background-image: url(/Images/coding-924920_960_720.jpg);
     /* background-size: contain; */
     background-repeat: no-repeat;
     width: 40%;
