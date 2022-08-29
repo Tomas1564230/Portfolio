@@ -8,6 +8,47 @@ body {
 
 
 /* Header */
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.topNavLink {
+    padding-right: 40px;
+    text-align: right;
+    font-size: 25px;
+    color: white;    
+    
+}
+
+.topNav {
+    display: inline;
+    float: right;
+    margin-top: -10px;
+    padding-right: 100px;
+
+}
+
+.topNavLink:hover {
+    
+    color: #10B981;
+    text-decoration: underline;
+    
+}
+
+.headerNav {
+    
+    background-color: #070b0fde;
+    padding-top: 50px;
+    height: 30px;
+    z-index: 99999000;
+    margin-bottom: -30px;
+    position: fixed;
+    width: 100%;
+}
+
 
 
 .header, .about {   
@@ -102,7 +143,7 @@ body {
     
 }
 
-.portfolioWork1, .portfolioWork2, .portfolioWork3, .portfolioWork4 {
+.portfolioWork {
     object-fit: contain;
     overflow: hidden;
     padding-top: 20px;
@@ -113,7 +154,7 @@ body {
     
 }
 
-.portfolioWork1:hover, .portfolioWork2:hover, .portfolioWork3:hover, .portfolioWork4:hover {
+.portfolioWork:hover {
     transition-duration: 0.5s;
     filter: blur(2px);
     transform: scale(1.05);

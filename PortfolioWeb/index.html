@@ -5,7 +5,15 @@
         <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
         
     <body>
-        <div class="header">
+        <div class="headerNav">
+        <nav class="topNav">
+            <a href="#header" class="topNavLink" onclick=scrollHeader()>Home</a>
+            <a href="#about" class="topNavLink" onclick=scrollAbout()>About</a>
+            <a href="#work" class="topNavLink" onclick=scrollWork()>Works</a>
+        </nav>
+    </div>
+        <div class="header" id="head">
+
                 <div class="gridHeaderOne">
                 <p class="headerSubTitle">> HTML CSS JavaScript</p>
                 <h1 class="headerTitle">Programming and <span style="color:#10B981">Design</h1>
@@ -14,7 +22,7 @@
                 </div>
                 <div class="gridHeaderTwo"></div>
         </div>
-        <div class="about">
+        <div class="about" id="aboutEl">
             <div class="aboutOne"></div>
             <div class="aboutTwo">
                 <p class="aboutSubTitle">> ABOUT</p>
@@ -27,10 +35,10 @@
             <hr class="workDivider">
 
             <div class="porfolioWorks">
-                <div class="portfolioWork1"><a href="https://milabaits.sk" target="_blank"><image src="/Images/milabaits.jpg"></a></div>
-                <div class="portfolioWork2"><a href="phoco.sk"target="_blank"><image src="/Images/phoco.jpg"></a></div>
-                <div class="portfolioWork3"><a href="https://www.donnabellapresov.sk" target="_blank"><image src="/Images/dona-bella.jpg"></div>
-                <div class="portfolioWork4"><a href="https://janinekozmetika.sk" target="_blank"><image src="/Images/janine.jpg"></a></div>
+                <div class="portfolioWork"><a href="https://milabaits.sk" target="_blank"><image src="/Images/milabaits.jpg"></a></div>
+                <div class="portfolioWork"><a href="phoco.sk"target="_blank"><image src="/Images/phoco.jpg"></a></div>
+                <div class="portfolioWork"><a href="https://www.donnabellapresov.sk" target="_blank"><image src="/Images/dona-bella.jpg"></div>
+                <div class="portfolioWork"><a href="https://janinekozmetika.sk" target="_blank"><image src="/Images/janine.jpg"></a></div>
             </div>
 
 

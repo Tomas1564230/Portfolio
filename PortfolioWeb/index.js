@@ -37,6 +37,14 @@ function generatePasswordsButton() {
 
 // Header button scroll smooth
 
+function scrollHeader(){
+    workScrollEl = document.getElementById("head")
+    workScrollEl.scrollIntoView({behavior: 'smooth'})
+}
+function scrollAbout(){
+    workScrollEl = document.getElementById("aboutEl")
+    workScrollEl.scrollIntoView({behavior: 'smooth'})
+}
 function scrollWork(){
     workScrollEl = document.getElementById("WorkToScroll")
     workScrollEl.scrollIntoView({behavior: 'smooth'})
