@@ -49,3 +49,4 @@ function scrollWork(){
     workScrollEl = document.getElementById("WorkToScroll")
     workScrollEl.scrollIntoView({behavior: 'smooth'})
 }
+

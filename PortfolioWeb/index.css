@@ -149,7 +149,7 @@ a:link, a:visited{
     padding-top: 20px;
     width: 25%;
     max-width: 25%;
-    min-width: 230px;   
+    min-width: 310px;   
     
     
 }
@@ -162,7 +162,12 @@ a:link, a:visited{
     
 }
 
-
+@media (min-width: 40em) {
+    .porfolioWorks {
+        display: flex;
+        place-items: center;
+    }
+}
 
 
 
