@@ -208,6 +208,11 @@ a:link, a:visited {
     margin: auto;
 }
 
+.phoco-class {
+    padding: 50px 0px 50px 0px;
+    background-color:#1b2b3a;
+}
+
 
 
 
