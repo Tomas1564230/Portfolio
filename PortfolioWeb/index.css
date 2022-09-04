@@ -116,6 +116,7 @@ a:link, a:visited {
 .work {
     background-color: #0f1922;
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 .workTitle{
     text-align: center;
@@ -209,10 +210,23 @@ a:link, a:visited {
 }
 
 .phoco-class {
-    padding: 50px 0px 50px 0px;
+    padding: 20px 0px 20px 0px;
     background-color:#1b2b3a;
 }
 
+
+
+
+/* FOOTER */
+.footer {
+    margin-top: 50px;
+    max-height: 350px;
+    height: 300px;
+    max-width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+}
 
 
 
